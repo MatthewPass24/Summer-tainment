@@ -16,9 +16,9 @@ h1 {
 .bg-light {
     background-color: transparent !important;
 }
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
+
+.carousel {
+    width: 100%;
 }
 .carousel-caption {
     margin-bottom: 220px;
