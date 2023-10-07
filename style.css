@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 html, body {
-    background: radial-gradient(#cccccc, #cccccc);
+    background: radial-gradient(#dddddd, #dddddd);
 }
 h1 {
     padding: 1em;
@@ -13,12 +13,12 @@ h1 {
     margin-bottom: 2em;
 }
 
-.bg-light {
-    background-color: transparent !important;
-}
 
 .carousel {
     width: 100%;
+}
+.carousel-item {
+    background: #000;
 }
 .carousel-caption {
     margin-bottom: 220px;
@@ -42,4 +42,14 @@ h1 {
     display: inline-block;
     color: #000;
     margin-top: 15px;;
+}
+.container {
+    margin-bottom: 5%;
+}
+.overlay-image {
+    opacity: 0.6;
+}
+.navbar-scrolled {
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
