@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -40,10 +43,10 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="overlay-image">
-          <img src="./images/Destinations.jpg" class="d-block w-100" alt="..."></div>
+          <img src="./images/Destinations.jpg" class="d-block w-100" alt="Cyberbuzz media"></div>
           <div class="carousel-caption">
             <h5>Destinations</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <p>Click the arrows to see the different places I visited.</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -51,7 +54,7 @@
           <img src="./images/Ocean-City.jpg" class="d-block w-100" alt="..."></div>
           <div class="carousel-caption">
             <h5>Ocean City, MD</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <p></p>
           </div>
         </div>
         <div class="carousel-item">
@@ -59,7 +62,7 @@
           <img src="./images/IMG_6025.jpg" class="d-block w-100" alt="..."></div>
           <div class="carousel-caption">
             <h5>Washington D.C.</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p></p>
           </div>
         </div>
         <div class="carousel-item">
@@ -67,7 +70,7 @@
           <img src="./images/IMG_6669 (1).jpg" class="d-block w-100" alt="..."></div>
           <div class="carousel-caption">
             <h5>Manhattan</h5>
-            <p>Some representative placeholder content for the fourth slide.</p>
+            <p></p>
           </div>
         </div>
       </div>
@@ -80,7 +83,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <h1>--Activities--</h1>
+    <h1>Activities</h1>
   <div class="container" id="images">
     <div class="row g-4">
       <div class="col-sm-12 col-md-4">
@@ -117,36 +120,36 @@
     </div>
   </div>
   <h1 id="job">Summer Work</h1>
-  <div class="work">
-  <div class="row g-4">
-    <div class="col-sm-12 col-md-6">
-      <div class="hovereffect">
-        <img class="img-responsive" src="./images/R.jpg" alt="">
-        <div class="overlay">
-           <a class="info" href="#">
-            <ul>
+  <div class="container-fluid text-center p-4">
+  <div class="summer">
+    <div class="row g-4">
+      <div class="col-lg-6 col-sm-12 col-12">
+        <div class="image">
+          <img class="image__img" src="./images/R.jpg">
+          <div class="image__overlay image__overlay--blur">
+            <div class="image__title">Working at Wegmans</div>
+            <p class="image__description"><ul>
               <li>I started working at Wegmans in May 2023 and worked over the summer</li>
               <li>At Wegmans, I have worked as a cashier, a self-checkout attendant, and a cart to curb shopper</li>
               <li>Over the months that I have worked there, I met some great people and it makes my job so much more fun</li>
               <li>I plan to continue working through the school year and the following summer</li>
-            </ul>
-           </a>
+            </ul></p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-sm-12 col-md-6">
-      <div class="hovereffect">
-        <img class="img-responsive" src="./images/R (3).jpg" alt="">
-        <div class="overlay">
-           <a class="info" href="#">
-            <ul>
-              <li>Over the summer, I read two books to prepare for my English class</li>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+        <div class="image">
+          <img class="image__img" src="./images/R (3).jpg">
+          <div class="image__overlay image__overlay--blur">
+            <div class="image__title">Summer Reading</div>
+            <p class="image__description"><ul>
+              <li>Over the summer, I read two books to prepare for my English class, AP Literature</li>
               <li>The first book I read was called <i>Interpreter of Maladies</i>, which consisted of short stories</li>
-              <li>The second book was my choice, <i>The Da Vinci Code</i>, a plot focused around mystery</li>
+              <li>The second book was my choice, <i>The Da Vinci Code</i>, a plot focused around mystery and the secrets within Da Vinci's paintings</li>
               <li>I thoroughly enjoyed both books, and I highly recommend them to others</li>
-            </ul>
-           </a>
-        </div>
+            </ul></p>
+          </div>
+      </div>
       </div>
     </div>
   </div>
@@ -200,11 +203,7 @@
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #384d88; height: 2px"
                 />
-            <p>
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
-            </p>
+                <a class="text-white"></a>
           </div>
           <!-- Grid column -->
 
@@ -239,15 +238,15 @@
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              <a href="#!" class="text-white">Your Account</a>
+              <a href="https://getbootstrap.com/" class="text-white">Getbootstrap.com</a>
             </p>
             <p>
             </p>
             <p>
-              <a href="#!" class="text-white">Shipping Rates</a>
+              <a href="https://www.w3schools.com/" class="text-white">W3Schools</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Help</a>
+              <a href="https://stackoverflow.com/" class="text-white">Stack Overflow</a>
             </p>
           </div>
           <!-- Grid column -->
